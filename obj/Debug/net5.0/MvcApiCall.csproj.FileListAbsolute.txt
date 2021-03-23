@@ -39,3 +39,4 @@
 /Users/arthurbuck/Desktop/projects/MvcApiCall/obj/Debug/net5.0/ref/MvcApiCall.dll
 /Users/arthurbuck/Desktop/projects/MvcApiCall/obj/Debug/net5.0/MvcApiCall.pdb
 /Users/arthurbuck/Desktop/projects/MvcApiCall/obj/Debug/net5.0/MvcApiCall.genruntimeconfig.cache
+/Users/arthurbuck/Desktop/projects/MvcApiCall/obj/Debug/net5.0/Razor/Views/Book/Index.cshtml.g.cs

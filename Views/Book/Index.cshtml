@@ -1,0 +1,16 @@
+
+<h1>All Books:</h1>
+
+<ol>
+@foreach (Book book in Model)
+{
+    <ul>
+        <li>Title: @book.Title</li>
+        <li>Author: @book.Author</li>
+    
+        <li>@Html.ActionLink($"{book.Title}", null)</li>
+         
+    </ul>
+    <br>
+}
+</ol>
