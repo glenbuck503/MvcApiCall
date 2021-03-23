@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "p+4wKsNQwaiE4O6p1mhsWydm0bxIUTdIaIRJ9k9XLgy4AixGQ/tTUpbB4gKC/sv5wi/t6+vF7DZu42UVV7E8aQ==",
+  "success": true,
+  "projectFilePath": "/Users/arthurbuck/Desktop/projects/MvcApiCall/MvcApiCall.csproj",
+  "expectedPackageFiles": [
+    "/Users/arthurbuck/.nuget/packages/newtonsoft.json/12.0.2/newtonsoft.json.12.0.2.nupkg.sha512",
+    "/Users/arthurbuck/.nuget/packages/restsharp/106.6.10/restsharp.106.6.10.nupkg.sha512"
+  ],
+  "logs": []
+}
