@@ -11,6 +11,7 @@ namespace MvcApiCall.Models
     public string Abstract { get; set; }
     public string Url { get; set; }
     public string Byline { get; set; }
+    public string Created_Date{ get; set; }
 
     public static List<Article> GetArticles(string apiKey)
     {
