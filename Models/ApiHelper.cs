@@ -12,5 +12,13 @@ namespace MvcApiCall.Models
       var response = await client.ExecuteTaskAsync(request);
       return response.Content;
     }
+
+    public static async Task<string> ApiCallBooks(string apiKey)
+    {
+      RestClient client = new RestClient("https://api.nytimes.com/svc/topstories/v2");
+      RestRequest request = new RestRequest($"books.json?api-key={apiKey}", Method.GET);
+      var response = await client.ExecuteTaskAsync(request);
+      return response.Content;
+    }
   }
 }

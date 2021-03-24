@@ -11,7 +11,7 @@ namespace MvcApiCall.Models
 
     public static List<Book> GetBooks(string apiKey)
     {
-      var apiCallTask = ApiHelper.ApiCall(apiKey);
+      var apiCallTask = ApiHelper.ApiCallBooks(apiKey);
       var result = apiCallTask.Result;
 
       JObject jsonResponse = JsonConvert.DeserializeObject<JObject>(result);

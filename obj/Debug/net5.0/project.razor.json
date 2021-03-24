@@ -15613,6 +15613,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/arthurbuck/Desktop/projects/MvcApiCall/Views/Weather/Index.cshtml",
+      "TargetPath": "Views\\Weather\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/arthurbuck/Desktop/projects/MvcApiCall/Views/_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"

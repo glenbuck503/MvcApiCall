@@ -1,0 +1,18 @@
+
+<h1>All weather:</h1>
+
+
+@foreach (Weather weather in Model)
+{
+    <ul>
+        <li>Title: @weather.Temp</li>
+        <li>Author: @weather.Humidity</li>
+    
+        <li>@Html.ActionLink($"{weather.Temp}", null)</li>
+         
+    </ul>
+    <br>
+}
+
+
+<p>@Html.ActionLink("************ Articles ************", "Index", "Home")</p>;
